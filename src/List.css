@@ -1,0 +1,31 @@
+.list {
+    width: 360px;
+    margin: auto;
+    background: salmon;
+    border-radius: 20px;
+}
+
+.list p {
+    margin: 20px;
+    padding: 15px 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+.list p input {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.list p span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.delete {
+    font-size: 18px;
+}
+

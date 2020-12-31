@@ -1,0 +1,58 @@
+:root {
+  --gradient: linear-gradient(to left, #6382f8, #a4bbfe);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e2dff0;
+  color: white;
+}
+
+.App {
+  background: #3f3160;
+  width: 400px;
+  min-height: 500px;
+  margin: 40px auto;
+  position: relative;
+  border-radius: 30px;
+}
+
+#to-do-form input,
+#to-do-form button {
+  border: none;
+  height: 60px;
+  border-radius: 50px;
+  outline: none;
+  color: #909090;
+  
+}
+
+#to-do-form input::placeholder {
+  color: #d3d3d3;
+}
+
+#to-do-form input {
+  border: 5px solid #e2dff0;
+  width: 360px;
+  margin: 20px;
+  padding: 0 20px;
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+#to-do-form button {
+  background: salmon;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #f5f6fb;
+}
